@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/favicon.ico (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
@@ -31,7 +31,7 @@ linkedin_username: farzam-masoumi-49941410b
 #pinterest_username: jekyll
 #youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 #additional_links:
@@ -52,17 +52,21 @@ googlescholar_username: D847cGsAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name is Farzam Masoumi, I am a self-motivated researcher;I hold a Master's degree in 
+  Mechatronics engineering from the University of Tehran, Iran and I started working in the Advanced 
+  Robotics and Intelligent Systems Laboratory. I worked on soft Robots and my Thesis was ''Design,
+  prototype and control a nature-inspired active soft waist to improve the movement ability of the 
+  silkworm robot''.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  my research interests are: 
+    - Robotics
+    - Autonomous Systems
+    - human-robot interaction
+    - System Engineerings
 
 content:
   - title: Projects # Title for the section
-    layout: text # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
